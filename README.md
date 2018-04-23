@@ -50,6 +50,6 @@ _Basic Maze_ - Shows the Stage with a Scene containing a BorderPane. The center 
 
 _Basic Maze Interactive_ - The user can click the tiles and they will toggle between the four maze colors. Code will be provided to handle the events related to the mouse clicks.
 
-_Save Maze_ - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The Button method `button.getBackground().getFills().get(0).getFill()` will return a Paint object representing the background color of the button. The constructor for the Application class should provide a parameter with the output file name.
+_Save Maze_ - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The listener code included with this assignment has examples of how to determine the Color of a Button. The constructor for the Application class should provide a parameter with the output file name.
 
 _Exit Maze_ - Clicking the Exit button should present the user the option to save (using the JavaFX Dialog) then exit the application using `System.exit(0)`.
