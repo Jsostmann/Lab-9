@@ -46,10 +46,10 @@ You are free to use the four colors of your choice in the maze: walls, path, ent
 
 ### Stage
 
-_Basic Maze_ - Shows the Stage with a Scene containing a BorderPane. The center zone of the BorderPane will contain a n x n GridPane. Each cell of the GridPane will contain a Button. The bottom zone of the BorderPane will conain an HBox. Add the “Save” and “Exit” buttons to the HBox and set the alignment so that the buttons are centered. Make sure your maze buttons are created with their backgrounds set to the wall background color (blue is the color I used for walls).
+_Basic Maze_ (2 points) - Shows the Stage with a Scene containing a BorderPane. The center zone of the BorderPane will contain a n x n GridPane. Each cell of the GridPane will contain a Button. The bottom zone of the BorderPane will conain an HBox. Add the “Save” and “Exit” buttons to the HBox and set the alignment so that the buttons are centered. Make sure your maze buttons are created with their backgrounds set to the wall background color (blue is the color I used for walls).
 
-_Basic Maze Interactive_ - The user can click the tiles and they will toggle between the four maze colors. Code will be provided to handle the events related to the mouse clicks.
+_Basic Maze Interactive_ (1 point) - The user can click the tiles and they will toggle between the four maze colors. Code will be provided to handle the events related to the mouse clicks.
 
-_Save Maze_ - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The listener code included with this assignment has examples of how to determine the Color of a Button. The constructor for the Application class should provide a parameter with the output file name.
+_Save Maze_ (1 point) - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The listener code included with this assignment has examples of how to determine the Color of a Button. The constructor for the Application class should provide a parameter with the output file name.
 
-_Exit Maze_ - Clicking the Exit button should present the user the option to save (using the JavaFX Dialog) then exit the application using `System.exit(0)`.
+_Exit Maze_ (1 point)- Clicking the Exit button should present the user the option to save (using the JavaFX Dialog) then exit the application using `System.exit(0)`.
