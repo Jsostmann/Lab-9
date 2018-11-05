@@ -1,5 +1,4 @@
-# Lab-9
-## Maze Builder
+# Maze Builder
 
 This is a JavaFX lab for COMP 167, Computer Program Design at North Carolina Agricultural and Technical State University.
 
