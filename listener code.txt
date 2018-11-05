@@ -39,13 +39,13 @@ private char getColorChar(Button b )
                     b.setStyle("-fx-background-color: white;");
                 }
                 else if (val == '1') {
-                   
+                   //TODO: Set background color to green
                 }
                 else if (val == 'S') {
-                    
+                   //TODO: Set background color to red
                 }
                 else {
-                    
+                   //TODO: Set background color back to blue
                 }
                 
             
