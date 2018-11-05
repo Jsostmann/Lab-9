@@ -32,6 +32,8 @@ A maze consists of a series of walls and paths with an entrance and exit. We can
 
 The output file of your maze builder should have the row and column dimensions on the first line represented as integers. The next rows and columns should then match the dimensions of the maze where zeros represent walls and ones represent paths. The entrance should be marked by an 'S' and the exit by an 'E'. The entry and exit should be the only non-wall tiles on the maze edges.
 
+Save your output file to the file chosen by the user with a [JavaFX FileChooser](http://tutorials.jenkov.com/javafx/filechooser.html).
+
 ### Input
 
 You should prompt the user for the number of rows and columns in the maze using a [JavaFX Dialog](http://code.makery.ch/blog/javafx-dialogs-official/).
@@ -50,6 +52,6 @@ _Basic Maze_ (2 points) - Shows the Stage with a Scene containing a BorderPane. 
 
 _Basic Maze Interactive_ (1 point) - The user can click the tiles and they will toggle between the four maze colors. Code will be provided to handle the events related to the mouse clicks.
 
-_Save Maze_ (1 point) - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The listener code included with this assignment has examples of how to determine the Color of a Button. The constructor for the Application class should provide a parameter with the output file name.
+_Save Maze_ (1 point) - Your Stage displays the basic maze plus a second panel containing the Save and Exit buttons. Clicking the Save button will save your maze to a file. The Save operation basically traverses your 2D array of buttons and outputs a 0, 1 , 'S' or 'E' depending on the color of the button/tile. The listener code included with this assignment has examples of how to determine the Color of a Button. The output file should be chosen by the user with a [JavaFX FileChooser](http://tutorials.jenkov.com/javafx/filechooser.html).
 
 _Exit Maze_ (1 point)- Clicking the Exit button should present the user the option to save (using the JavaFX Dialog) then exit the application using `System.exit(0)`.
